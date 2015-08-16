@@ -28,4 +28,4 @@ cd $WORKSPACE/gluon
 make update GLUON_RELEASE=$1+$2 GLUON_TARGET=$3 $4 $5 $6 $7 $8 $9
 make clean GLUON_RELEASE=$1+$2 GLUON_TARGET=$3 $4 $5 $6 $7 $8 $9
 
-make GLUON_RELEASE=$1+$2 GLUON_TARGET=$3 GLUON_BRANCH=stable $4 $5 $6 $7 $8 $9
+make GLUON_RELEASE=$1+$2 GLUON_TARGET=$3 $4 $5 $6 $7 $8 $9
